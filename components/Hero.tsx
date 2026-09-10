@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 
 const ROLES = [
   "Full-Stack Developer",
+  "IT Analyst",
   "UX/UI Designer",
   "Coffee-fuelled Coder",
   "Hackathon Finalist",
@@ -20,6 +21,7 @@ const CODE_SNIPPETS = [
 const STATS = [
   { value: "Full-Stack", label: "Focus" },
   { value: "3×", label: "President's Honours" },
+  { value: "IT Analyst", label: "CRA" },
   { value: "2027", label: "Graduating" },
 ];
 
@@ -180,7 +182,7 @@ export default function Hero() {
             <a href="#projects" className="glow-btn rounded-full bg-[#800020] px-7 py-3 text-sm font-semibold text-white shadow-[0_4px_20px_rgba(128,0,32,0.3)] transition-all hover:bg-[#a8324a] hover:shadow-[0_6px_28px_rgba(128,0,32,0.4)] active:scale-95">
               See My Work →
             </a>
-            <a href="/shashinir_resume.pdf" target="_blank" className="rounded-full border border-black/12 bg-white px-7 py-3 text-sm font-semibold text-[#111111] shadow-[0_2px_12px_rgba(0,0,0,0.06)] transition-all hover:border-[#800020]/30 hover:text-[#800020] active:scale-95">
+            <a href="/shashinir_resume_web.pdf" target="_blank" className="rounded-full border border-black/12 bg-white px-7 py-3 text-sm font-semibold text-[#111111] shadow-[0_2px_12px_rgba(0,0,0,0.06)] transition-all hover:border-[#800020]/30 hover:text-[#800020] active:scale-95">
               Download CV
             </a>
           </div>
